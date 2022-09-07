@@ -1,0 +1,211 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Dirt&family=Rubik+Distressed&family=Rubik+Marker+Hatch&family=Rubik+Maze&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+    
+}
+:root{
+    font-size: 16px;
+}
+.div{
+    width: 100vw;
+    min-height: 100vh;
+    
+}
+img{
+    width: 200px;
+}
+.land{
+    aspect-ratio: 4/3;
+    object-fit: contain;
+}
+.port{
+    aspect-ratio: 8/10;
+}
+.imgs{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.second{
+  background-color: aqua;
+}
+.para1{
+    background:url('./images/ryan-ancill-pMSd2qxMpIY-unsplash.jpg'),rgba(1, 22, 117, 0.66);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landimg{
+    display: flex;
+    flex-direction: column;
+    padding:.5rem;
+}
+.eachl{
+    padding: 0.5rem;
+}
+.h-t{
+    color:aqua;
+    font-family: 'Dancing Script', gigi, 'Courier New';
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 5rem;
+    padding: 2px 10px 10px 10px;
+}
+.p-t{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+.h-text{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    overflow:hidden;
+    text-align: center;
+   
+}
+.stop{
+    font-size: 5rem;
+    overflow:hidden;
+}
+footer{
+    background-color: black;
+    padding: 1rem;
+    color:white;
+}
+.contact *{
+   
+}
+.copy{
+    background-color: rgba(13, 13, 13, 0.888);
+    text-align: center;
+    padding: 1rem;
+    color:white;
+}
+.foot-det{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+    width:300px;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.ft-h{
+    border-bottom: 1px solid aqua;
+}
+.scale{
+    transform:scaleY(2);
+    color:crimson;
+}
+.heading{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding:2rem;
+}
+.para2{
+    background:url('./images/dillon-wanner-doW_oh5pjVw-unsplash.jpg'),rgba(1, 22, 117, 0.66);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para3{
+    background:url('./images/kevin-wang-FGZBXeQxDSM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rot{
+    border-bottom:4px solid aqua;
+    padding:1rem;
+}
+.p{
+    min-height: 50vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding:15px;
+    text-align: justify;
+   
+}
+.workers{
+    min-height: 70vh;
+    width:100vw;
+    background-color: black;
+    color:wheat;
+}
+#w-h{
+    color:white;
+}
+.footer{
+    color:white;
+    background-color: black;
+}
+.hilt{
+    color:crimson;
+   
+}
+.f-text{
+    font-weight: bolder;
+}
+@media (max-width:900px) {
+ *{
+ }   
+ .p{
+    min-width:350px;
+ }
+}
+@media (max-width:600px) {
+    .div{
+        min-height: 30vh;
+    }
+    .h-t{
+        font-size: 3rem;
+    }
+    .p{
+        width:250px;
+        padding:1rem;
+    }
+    
+}
+@media (max-width:800px) {
+    .div{
+        min-height: 50vh;
+    }
+    .h-t{
+        font-size: 3rem;
+    }
+    .p{
+        width:250px;
+        padding:1rem;
+    }
+    
+}
